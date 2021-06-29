@@ -23,20 +23,44 @@
     <div class="navbar">
         <div class="container">
             <div class="logo">
-                <img src="./images/logo.webp" alt="logo image"
+                <img src="./images/logo-alt.webp" alt="logo image"
                     draggable="false">
             </div>
-            <ul>
-                <li><a href="#">Home</a></li>
+            <ul class="nav">
+                <li><a class="active" href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Portfollio</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Prices</a></li>
                 <li><a href="#">Team</a></li>
-                <li><a href="#">Blog</a></li>
+                <li class="dropdown"><a href="#">Blog</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">Blog post</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">Contact</a></li>
             </ul>
             <div class="clear"></div>
+        </div>
+    </div>
+
+    <!-- home section -->
+    <div class="home">
+        <div class="overlay">
+            <div class="home-content">
+                <h1 class="title">we are creative agency</h1>
+                <p class="home-desc"> Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Suscipit
+                    ad provident dicta molestiae fugit eum omnis accusantium.
+                    Nihil
+                    itaque iure harum, suscipit odit cum et sint repellat,
+                </p>
+                <button class="btn btn-start hover-opacity">Get Started
+                    !</button>
+                <button class="btn btn-learn hover-opacity">Learn More
+                    !</button>
+
+            </div>
         </div>
     </div>
 </body>
