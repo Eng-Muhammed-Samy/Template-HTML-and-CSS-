@@ -58,6 +58,46 @@ button {
 .hover-opacity:hover {
 	opacity: 0.8;
 }
+
+.section-header {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.section-header .section-title {
+	font-size: 35px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+}
+.section-header .line {
+	display: block;
+	height: 3px;
+	width: 30px;
+	background-color: #6195ff;
+	margin: 0px auto 70px auto;
+}
+.p-y {
+	padding: 100px 0px;
+}
+.mg-x {
+	margin: 0px 5%;
+}
+.left-to-right-effect {
+	position: relative;
+}
+.left-to-right-effect::after {
+	position: absolute;
+	content: '';
+	width: 0%;
+	height: 100%;
+	background-color: #333;
+	z-index: -1;
+	left: 0;
+	top: 0;
+	transition: width 0.3s;
+}
+.left-to-right-effect:hover::after {
+	width: 100%;
+}
 /* or put overflow: hiddien in parent*/
 .clear {
 	clear: both;
@@ -180,7 +220,53 @@ button {
 	color: #fff;
 }
 /* about section */
+.about-content {
+	overflow: hidden;
+}
+.about-item {
+	width: 30%;
+	float: left;
+	text-align: center;
+	border: 1px solid #e8e8e8;
+	padding: 50px 10px;
+}
+.about-item .icon {
+	color: #6195ff;
+	margin-bottom: 10px;
+}
+.about-item-title {
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	transition: color 0.3s;
+}
+.about-item-desc {
+	line-height: 1.5;
+	margin-bottom: 10px;
+	color: #999;
+}
+.about-item-link {
+	color: #6195ff;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.about-item:hover .about-item-title {
+	color: #fff;
+}
 /* Portfollio section */
+.portfalio {
+	background-color: #f9f9f9;
+}
+.portfalio-content {
+	overflow: hidden;
+}
+.portfalio-item {
+	width: 30%;
+	float: left;
+	margin-bottom: 50px;
+}
+.portfalio-item img {
+	width: 100%;
+}
 /* services section */
 /* prices section */
 /* Team section */
