@@ -79,7 +79,7 @@ button {
 	padding: 100px 0px;
 }
 .mg-x {
-	margin: 0px 5%;
+	margin: 0px 3%;
 }
 .left-to-right-effect {
 	position: relative;
@@ -224,7 +224,7 @@ button {
 	overflow: hidden;
 }
 .about-item {
-	width: 30%;
+	width: 31%;
 	float: left;
 	text-align: center;
 	border: 1px solid #e8e8e8;
@@ -260,15 +260,15 @@ button {
 	overflow: hidden;
 }
 .portfalio-item {
-	width: 32%;
+	width: 31%;
 	float: left;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	position: relative;
 	padding: 20px;
 }
 .portfalio-item img {
 	width: 100%;
-	margin: 0px 2%;
+	/* margin: 0px 2%; */
 }
 .portfalio-item .layer-content {
 	position: absolute;
@@ -334,7 +334,37 @@ button {
 	opacity: 1;
 }
 
-/* services section */
+/* offer section */
+.offer-content {
+	overflow: hidden;
+}
+.offer-item {
+	width: 30%;
+	float: left;
+	position: relative;
+	padding: 20px 15px 30px 70px;
+	margin-bottom: 20px;
+	border: 1px solid #e8e8e8;
+}
+.offer-item .icon {
+	position: absolute;
+	top: 20px;
+	left: 15px;
+	color: #6195ff;
+}
+.offer-item-title {
+	text-transform: capitalize;
+	margin-bottom: 15px;
+	transition: color 0.4s;
+}
+.offer-item-desc {
+	text-transform: capitalize;
+	margin-bottom: 15px;
+	color: #999;
+}
+.offer-item:hover .offer-item-title {
+	color: #fff;
+}
 /* prices section */
 /* Team section */
 /* Blog section */
